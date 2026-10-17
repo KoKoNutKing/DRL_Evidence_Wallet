@@ -1,0 +1,14 @@
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+
+# Local secrets; keep a future example file trackable
+.env
+.env.*
+!.env.example
+
+# Local submission archives
+/*.zip
