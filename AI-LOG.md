@@ -59,3 +59,39 @@
 - **Changed:** we added to the Screens text that the activity period and appeal window are reference data stored for the semester and not live-synced with HCMUS systems, and that the check is "complete according to the app's predefined checklist" rather than an official result; in the log, the separate "Not verified" line was merged into "Changed" because the course template has no such field.
 - **Rejected:** the first log draft, because it also covered my teammate's ChatGPT research, which they log themselves.
 - **By hand:** the Team, Problem, Users and Scope sections were first written by my teammates; I chose which parts of the work to log and checked every draft against what we actually did.
+
+## 2026-10-17 — Project Idea Research
+- **Logged by:** Thái Quang Huy — 24127177
+- **Tool:** ChatGPT (GPT-6) + Deep Research
+- **Asked for:** Research and compare suitable web application ideas based on the PA#1 requirements and rubric.
+- **Kept:** The DRL Evidence Wallet idea, including its problem, users, scope, and main flow.
+- **Changed:** Focused on a smaller, student-side evidence preparation application.
+- **Rejected:** Generic or overly complex project ideas.
+- **By hand:** Shared the research report with the team. The team discussed the options and selected DRL.
+
+## 2026-10-17 — Scope Review
+- **Logged by:** Thái Quang Huy — 24127177
+- **Tool:** ChatGPT (GPT-6)
+- **Asked for:** Evaluate the proposed DRL scope and suggest improvements for an 8-week project.
+- **Kept:** Predefined criteria, evidence uploads, and rule-based completeness checks.
+- **Changed:** Clarified that checklist completion does not guarantee official acceptance.
+- **Rejected:** Unnecessary features and overly broad claims about appeal readiness.
+- **By hand:** Reviewed the AI feedback and discussed the scope with the team.
+
+## 2026-10-17 — Proposal Drafting
+- **Logged by:** Thái Quang Huy — 24127177
+- **Tool:** ChatGPT (GPT-6)
+- **Asked for:** Complete the PA#1 proposal using project context prepared by a team member.
+- **Kept:** The agreed problem, primary user, main flow, and scope.
+- **Changed:** Refined the wording and clarified the application's limitations.
+- **Rejected:** Claims implying official HCMUS integration or guaranteed evidence acceptance.
+- **By hand:** Provided the project context and reviewed the completed proposal.
+
+## 2026-10-17 — Screens Review
+- **Logged by:** Thái Quang Huy — 24127177
+- **Tool:** ChatGPT (GPT-6)
+- **Asked for:** Review Section 6 and the wireframes created by a team member against the PA#1 rubric.
+- **Kept:** The existing three-screen flow and wireframe designs.
+- **Changed:** Clarified checklist-based status and predefined reference dates in the screen descriptions.
+- **Rejected:** Wording implying that the app officially validates appeal evidence.
+- **By hand:** Reviewed the AI feedback and requested corrections. The wireframes were created by a team member.
