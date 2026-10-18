@@ -7,6 +7,7 @@
 - **Asked for:** Create a minimal PA#1 repository skeleton, keep wireframes as `.gitkeep`, and use concise English documentation.
 - **Kept:** TODO: confirm which generated files the team accepted as provided.
 - **Changed:** Documentation was translated into English and the AI log shortened and reformatted at the user's request.
+- **Rejected:** Unnecessary features outside the PA#1 scope.
 - **By hand:** TODO: record any parts written by the team; none have been reported.
 
 ## 2026-10-17 — Research Web project ideas
