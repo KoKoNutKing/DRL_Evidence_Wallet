@@ -66,7 +66,7 @@
 - **Asked for:** Research and compare suitable web application ideas based on the PA#1 requirements and rubric.
 - **Kept:** The DRL Evidence Wallet idea, including its problem, users, scope, and main flow.
 - **Changed:** Focused on a smaller, student-side evidence preparation application.
-- **Rejected:** Generic or overly complex project ideas.
+- **Rejected:** The other 14 ideas in ChatGPT's report, including its two runners-up, Move-in Condition Record (93/100) and Lab Help Queue (92/100); I judged the DRL idea (94/100 in the report) to be the best of them, so we chose it.
 - **By hand:** Shared the research report with the team. The team discussed the options and selected DRL.
 
 ## 2026-10-17 — Scope Review
@@ -95,3 +95,21 @@
 - **Changed:** Clarified checklist-based status and predefined reference dates in the screen descriptions.
 - **Rejected:** Wording implying that the app officially validates appeal evidence.
 - **By hand:** Reviewed the AI feedback and requested corrections. The wireframes were created by a team member.
+
+## 2026-10-19 — Documentation polish (commit 80b323f)
+- **Logged by:** Lê Nguyễn Quốc Học
+- **Tool:** None. No AI tool was used for this commit.
+- **Asked for:** Not applicable.
+- **Kept:** Not applicable.
+- **Changed:** Not applicable.
+- **Rejected:** Not applicable.
+- **By hand:** Commit 80b323f "Polish PA#1 submission documentation" was made by hand and changed AI-LOG.md, PROPOSAL.md, README.md and SELF_ASSESSMENT_REPORT.md.
+
+## 2026-10-19 — Final review against the rubric (Claude Code)
+- **Logged by:** Thái Quang Huy — 24127177
+- **Tool:** Claude Code (Claude Sonnet 5.5).
+- **Asked for:** A final review of PA#1 against the rubric, and a list of edits: shorten the three screen paragraphs in PROPOSAL.md Section 6, rewrite the self-assessment in the course template, add questions to the thin AI-LOG entries, tidy README.md, and build the submission zip.
+- **Kept:** Which edits the team accepted unchanged was not recorded.
+- **Changed:** Claude Code rewrote the three Screens paragraphs, moved the limitations into one Notes paragraph, moved the counted/missing bullet under "Last priority" in Scope, marked step 5 of the main flow as last priority, rewrote the self-assessment with a total of 93 (the number given in the request), removed the "Before submission" section from README.md, and added placeholder questions to this log that were later resolved. It did not change the images, the Vietnamese labels, the screen names, or the project scope.
+- **Rejected:** Nothing was rejected during the session itself; any later rejection by the team was not reported.
+- **By hand:** No manual writing or checking was reported for this step; this does not establish that none occurred.

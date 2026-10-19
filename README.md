@@ -59,22 +59,13 @@ Sign-in and the later counted/missing activity workflow are described in the pro
 ## Repository guide
 
 ```text
-README.md                     Project overview and review instructions
+README.md                     Project overview
 PROPOSAL.md                   Team, problem, users, main flow, scope, and screens
 AI-LOG.md                     AI use, attribution, and decisions about output
-SELF_ASSESSMENT_REPORT.md      Scores, evidence, and remaining work
+SELF_ASSESSMENT_REPORT.md     Scores, evidence, and remaining work
 wireframes/
   flow.png                    Three-screen flow with navigation arrows
   screen-1.png                Semester evidence checklist
   screen-2.png                Add evidence
   screen-3.png                Evidence check
-docs/
-  README.md                   Placeholder for later development documentation
 ```
-
-## Before submission
-
-- Confirm the official rubric, accepted mockup format, deadline, and packaging requirements.
-- Review the recorded repository-setup limitations in [AI-LOG.md](AI-LOG.md) and review each member's actual AI usage.
-- Review the [self-assessment](SELF_ASSESSMENT_REPORT.md) and confirm the team's final scores.
-- Check that all linked documents and images remain accessible in the submission package.
