@@ -5,10 +5,10 @@
 - **Logged by:** Lê Nguyễn Quốc Học
 - **Tool:** OpenAI Codex.
 - **Asked for:** Create a minimal PA#1 repository skeleton, keep wireframes as `.gitkeep`, and use concise English documentation.
-- **Kept:** TODO: confirm which generated files the team accepted as provided.
+- **Kept:** The minimal repository structure for the PA#1 Markdown deliverables and the wireframes directory. Which generated file contents were accepted unchanged was not recorded.
 - **Changed:** Documentation was translated into English and the AI log shortened and reformatted at the user's request.
 - **Rejected:** Unnecessary features outside the PA#1 scope.
-- **By hand:** TODO: record any parts written by the team; none have been reported.
+- **By hand:** No manual writing or edits were reported for this setup step; this does not establish that none occurred.
 
 ## 2026-10-17 — Research Web project ideas
 

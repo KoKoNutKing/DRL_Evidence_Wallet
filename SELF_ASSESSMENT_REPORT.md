@@ -1,4 +1,4 @@
-# Self-assessment report
+﻿# Self-assessment report
 
 Project: **Ví minh chứng ĐRL (ĐRL Evidence Wallet)**
 
@@ -8,34 +8,30 @@ Assignment: **PA#1 — Idea and Wireframe**
 
 Team: Lê Nguyễn Quốc Học (24127044), Thái Quang Huy (24127177), and Trần Hoàng Phúc (24127505).
 
-This assessment covers the proposal and mockups currently in the repository. It uses the five criteria and maximum scores from the existing assessment template. The original rubric PDF is not included in the repository, so the team should confirm the scoring criteria and accepted mockup format before submission.
+This assessment follows the five criteria in the supplied PA#1 rubric (pages 1-3). Evidence refers to the current proposal, original-size PNG mockups, and AI usage log. Static mockups are explicitly accepted; clickable interactions and working application code are not required for this milestone.
 
 ## Criteria, scores, and evidence
 
 | Criterion | Max points | Self-assessed points | Evidence and justification |
 | --- | ---: | ---: | --- |
-| Problem and users | 20 | 20 | [Problem](PROPOSAL.md#2-the-problem) and [Users](PROPOSAL.md#3-users) identify HCMUS students, scattered evidence, and the need to prepare records before the appeal window closes. The goal is concrete: organize each activity under its ĐRL item and identify incomplete records early. |
-| Scope and Not building | 15 | 15 | [Scope](PROPOSAL.md#5-scope) defines a single student role, one predefined semester, activity CRUD, owner-only evidence access, fixed checks, and counted/missing tracking. Nine explicit exclusions constrain the project, including score prediction, automatic appeals, school integration, OCR, and certificate verification. |
-| Three screens of main flow | 35 | 35 | [Screen 1](wireframes/screen-1.png), [Screen 2](wireframes/screen-2.png), and [Screen 3](wireframes/screen-3.png) follow one activity from item selection through entry to a checklist result. The [flow diagram](wireframes/flow.png) labels forward, cancel, edit, and completion paths. The example consistently uses item 4.3 and demonstrates an out-of-period date error. These are static PNG mockups. |
-| Each screen explained | 15 | 15 | [Screens](PROPOSAL.md#6-screens) explains each screen's purpose, displayed information, actions, and destinations. It covers group expansion, the file picker, cancellation, retaining form values on edit, and the checklist update after completion. It also explains the difference between reference checks and official school results. |
-| AI-LOG | 15 | 13 | [AI usage log](AI-LOG.md) attributes all six entries through Logged by and describes tools, requests, accepted output, changes, rejected suggestions, and manual work. Entries explain corrections to terminology, rules, and mockups. Two repository-setup fields still contain TODOs, so this criterion is not assessed at full marks. |
-
-## Total score
-
-**98 / 100** = 20 + 15 + 35 + 15 + 13.
-
-This is a proposed self-assessment based on the available artifacts. Full points for the screen criterion assume that static mockups with a labelled flow diagram meet the official submission requirements.
+| The problem and the users | 20 | 20 | [The Problem](PROPOSAL.md#2-the-problem) is one paragraph describing the difficulty of organizing activity evidence before an appeal window. It contains neither "platform" nor "ecosystem". [Users](PROPOSAL.md#3-users) names HCMUS students and explains their job: organize activity records by item, check completeness, and retrieve evidence when needed. This meets the 17-20 band. |
+| Scope, with a Not building list | 15 | 14 | [Scope](PROPOSAL.md#5-scope) has eight Building bullets and nine concrete Not building exclusions, including score calculation, school integration, OCR, certificate verification, and native mobile apps. One role, one seeded semester, and fixed rules limit the work. This meets the 13-15 band; one point is reserved because authentication, private uploads, CRUD, and the additional counted/missing workflow still create a substantial workload for three people in eight weeks, without a detailed delivery plan. |
+| Three screens of the main flow | 35 | 35 | [Screen 1](wireframes/screen-1.png), [Screen 2](wireframes/screen-2.png), and [Screen 3](wireframes/screen-3.png) follow item selection, activity entry, and checking in order. The app-specific sample activity and date error are consistent. Text is readable in the individual PNGs at their submitted size. The [flow diagram](wireframes/flow.png) shows add, save-and-check, cancel, edit, and completion paths; [Screens](PROPOSAL.md#6-screens) also explains group expansion, other Add evidence buttons, form selections, and the file picker. This meets the 30-35 band. |
+| Each screen explained | 15 | 15 | [Screens](PROPOSAL.md#6-screens) explains what the student is trying to do on every screen and where each action leads. It describes cancellation without saving, editing with retained values, and returning to the checklist with the saved record's status and updated counts. The descriptions match the illustrated activity and explain that checking is based on app rules rather than official university acceptance. This meets the 13-15 band. |
+| AI-LOG.md | 15 | 14 | [AI usage log](AI-LOG.md) has ten tasks attributed to team members: three from Quoc Hoc, three from Hoang Phuc, and four from Quang Huy. Each records Tool, Asked for, Kept, Changed, Rejected, and By hand. Specific rejection reasons include unsupported demand claims, a Word template instead of Markdown, and a failed arrow-generation script. This meets the 13-15 band; one point is reserved because some entries describe rejected features or ideas generically instead of identifying concrete suggestions and their reasons. No TODO fields remain. |
+| **Total** | **100** | **98** | **20 + 14 + 35 + 15 + 14 = 98.** |
 
 ## What we did not manage
 
-- The repository-setup entry in AI-LOG still needs confirmation of which generated files were accepted and which parts the team wrote by hand.
-- The project idea has not been validated through user interviews, as noted in the research comparison log. The problem and workflow are a proposal rather than demonstrated user demand.
-- The supplied screen artifacts are static images. They illustrate navigation and validation results but do not provide clickable interactions or working file uploads.
+- We have not validated demand through user interviews. The problem is a proposal supported by the described workflow, not a claim of measured demand; interviews are not required by this rubric.
+- Some AI-log entries remain generic about rejected suggestions. The setup entry also acknowledges that file-by-file acceptance and manual contributions were not recorded in detail.
+- The additional sign-in and counted/missing workflows are described but not drawn. The three submitted screens cover the selected core activity-recording flow.
+- Some mockup labels, including the certificate check and appeal-readiness wording, are broader than the metadata checks the app can perform. The proposal clarifies these limits, but the PNG wording has not been revised.
 
-Application implementation is planned for later assignments. Login, persistent storage, evidence access control, and automatic rule checks have not been implemented or tested. The proposal describes sign-in and the later counted/missing workflow, but those steps are outside the three-screen mockup.
+The artifacts are static mockups, an accepted PA#1 format. Authentication, persistent storage, access control, uploads, and rule execution are planned for later assignments and have not been implemented or tested.
 
-## Final review before submission
+## Submission total
 
-- Confirm the criteria, point weights, mockup format, and packaging requirements against the official rubric.
-- Complete the remaining AI-log fields with the actual team decisions and review the final self-assessed score.
-- Verify that the submitted package preserves the relative paths between the proposal and all four PNG files.
+The team's proposed total is **98/100**. Following the rubric's ascending-ID naming rule, the submission ZIP should be named **24127044-24127177-24127505_98.zip** and contain the proposal, three screen images, AI log, and this report. Preserve the relative image paths; include the supplementary flow diagram because the proposal links to it.
+
+This is a self-assessment, not a confirmed instructor grade. The rubric's honesty adjustment applies to the difference between the claimed total and the awarded mark.

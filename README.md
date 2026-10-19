@@ -16,9 +16,9 @@ Current assignment: **PA#1 — Idea and Wireframe**
 
 ## The problem
 
-Activity certificates, participation confirmations, and photos often end up scattered across students' phones, downloads, and messages. When an activity is missing from the preliminary ĐRL result, students need to find its evidence and check its date and applicable ĐRL item before the appeal window closes.
+Activity certificates, participation confirmations, and photos may be kept in different places such as students' phones, downloads, and messages. When an activity is missing from the preliminary ĐRL result, students need to find its evidence and check its date and applicable ĐRL item before the appeal window closes.
 
-The proposed app keeps these records together and identifies missing information early. Its checklist is for reference; the official ĐRL result comes from the school.
+The proposed app keeps these records together and identifies missing information early. Its checklist checks entered fields and user-selected evidence types, not file contents or authenticity; the official ĐRL result comes from the school.
 
 ## Main flow and mockups
 
@@ -75,6 +75,6 @@ docs/
 ## Before submission
 
 - Confirm the official rubric, accepted mockup format, deadline, and packaging requirements.
-- Resolve the remaining repository-setup TODOs in [AI-LOG.md](AI-LOG.md) and review each member's actual AI usage.
+- Review the recorded repository-setup limitations in [AI-LOG.md](AI-LOG.md) and review each member's actual AI usage.
 - Review the [self-assessment](SELF_ASSESSMENT_REPORT.md) and confirm the team's final scores.
 - Check that all linked documents and images remain accessible in the submission package.
