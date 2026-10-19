@@ -1,6 +1,6 @@
 # ĐRL Evidence Wallet — Ví minh chứng ĐRL
 
-A proposed responsive web app that helps HCMUS students organize activity records and supporting evidence by semester and ĐRL item, check whether each record meets a predefined checklist, and prepare evidence for appeals after preliminary training-point results are published.
+A proposed responsive web app that helps HCMUS students organize activity records and supporting evidence under the correct ĐRL item for one predefined semester, check whether each record meets a predefined checklist, and keep evidence ready for the appeal window after preliminary training-point results are published.
 
 Course: **Web Application Development (CSC13008)** · Class: **24KTPM1**
 
@@ -22,9 +22,11 @@ The proposed app keeps these records together and identifies missing information
 
 ## Main flow and mockups
 
+After signing in, the student follows the three-screen flow:
+
 1. Open the semester checklist and choose an ĐRL item.
-2. Add an activity, enter its details, and attach evidence.
-3. Review the checklist result, correct missing or invalid information, or keep the record and return to the semester checklist.
+2. Add an activity, enter its details and item-specific fields, attach evidence, and select "Lưu và kiểm tra" (Save and check).
+3. Review the checklist result, use "Sửa lại" (Edit) to correct the record, or select "Hoàn tất" (Done) to keep it and return to the semester checklist with its status updated.
 
 The example follows an off-campus volunteering activity under item 4.3. Its date, 28/02/2026, is outside the configured activity period of 02/03–13/09/2026, so the result explains why the record needs changes.
 
@@ -41,12 +43,16 @@ Open the PNG files directly or view them through the links above. They are stati
 ## Planned scope
 
 - Email and password registration and login.
-- One predefined semester, with stored activity dates, an appeal window, and seeded ĐRL groups and items.
-- Create, view, edit, and delete personal activity records, including item-specific details such as volunteering hours.
-- Attach images or PDFs, with evidence files accessible only to their owner.
-- Check required fields, activity dates, evidence presence, off-campus documentation, and item-specific fields using fixed rules.
-- Show evidence completeness and missing requirements; after preliminary results, let students mark activities as counted or missing to prepare appeals.
+- One predefined semester, with a stored activity period and appeal window, and seeded ĐRL groups and items from the current HCMUS regulation.
+- Create, view, edit, and delete personal activity records: name, date, organizer, on-campus or off-campus location, ĐRL item, item-specific fields such as volunteering hours, and an optional note.
+- Attach one or more images or PDFs per activity, each with a student-selected evidence type (certificate, participation confirmation, or photo); only the owner can open the files.
+- Use fixed rules to check required fields, dates within the activity period, at least one evidence file, a file labelled as a certificate or participation confirmation for off-campus activities, and item-specific fields.
+- Show each record as "Đủ minh chứng" (Enough evidence) or "Cần chỉnh sửa" (Needs changes), with missing requirements listed; show item-level checklist statuses and label school-recorded items "Trường tự ghi nhận".
 - Provide a responsive interface designed for use on phones.
+
+The summary counts saved activities. For supported ĐRL items, the checklist shows "Chưa có minh chứng" (No evidence yet) when no activities are saved, "Cần bổ sung" (Needs more evidence) when any saved activity fails a check, and "Đủ minh chứng" when at least one activity is saved and all saved activities pass. These statuses describe checklist completeness, not university acceptance.
+
+Last priority, only if time allows: after preliminary results are published, let students mark each saved activity as counted or missing and view missing activities with their evidence. Students file appeals through the school's own process outside the app.
 
 The scope excludes score calculation or prediction, automatic appeal submission, school-system integration or SSO, AI/OCR, certificate authenticity verification, regulation administration or automatic updates, personal-circumstance records, native mobile apps, and notifications. See the [full scope](PROPOSAL.md#5-scope) for details.
 
@@ -54,7 +60,7 @@ The scope excludes score calculation or prediction, automatic appeal submission,
 
 This repository contains the project proposal, three screen mockups, a flow diagram, an AI usage log, and a self-assessment. Application implementation and technology selection are pending. Authentication, storage, uploads, and rule checks described above are planned features.
 
-Sign-in and the later counted/missing activity workflow are described in the proposal but are outside the three illustrated screens. Semester dates and the appeal window shown in the mockups are predefined reference data, with no live connection to HCMUS systems.
+Sign-in and the optional, last-priority counted/missing activity workflow are described in the proposal but are outside the three illustrated screens. The activity period and appeal window shown in the mockups are predefined reference data, with no live connection to HCMUS systems.
 
 ## Repository guide
 

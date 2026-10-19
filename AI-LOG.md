@@ -96,14 +96,14 @@
 - **Rejected:** Wording implying that the app officially validates appeal evidence.
 - **By hand:** Reviewed the AI feedback and requested corrections. The wireframes were created by a team member.
 
-## 2026-10-19 — Documentation polish (commit 80b323f)
+## 2026-10-19 — Documentation polish
 - **Logged by:** Lê Nguyễn Quốc Học
-- **Tool:** None. No AI tool was used for this commit.
-- **Asked for:** Not applicable.
-- **Kept:** Not applicable.
-- **Changed:** Not applicable.
-- **Rejected:** Not applicable.
-- **By hand:** Commit 80b323f "Polish PA#1 submission documentation" was made by hand and changed AI-LOG.md, PROPOSAL.md, README.md and SELF_ASSESSMENT_REPORT.md.
+- **Tool:** OpenAI Codex (attribution corrected by the team).
+- **Asked for:** Polish the PA#1 submission documentation and clarify the limits of the evidence checklist. This summary was reconstructed from commit 80b323f; the original prompt was not retained in this log.
+- **Kept:** The existing project idea, three-screen activity-recording flow, and PNG mockups. The commit revised documentation without changing the images.
+- **Changed:** Softened unsupported claims about where students keep evidence; clarified that checks use entered fields and user-selected evidence types rather than reading or authenticating files; defined how activity results determine each item's status; expanded the self-assessment with criterion-specific explanations and remaining limitations; and replaced setup TODOs in AI-LOG.md with explicit statements about what had not been recorded.
+- **Rejected:** Specific suggestions rejected during the original session were not recorded. The revised documentation avoids presenting checklist completion as a guarantee of university acceptance.
+- **By hand:** The team identified Codex as the tool for this entry and requested correction of the earlier claim that no AI was used. The accepted documentation changes are recorded in commit 80b323f, "Polish PA#1 submission documentation"; any separate manual edits during that session were not recorded.
 
 ## 2026-10-19 — Final review against the rubric (Claude Code)
 - **Logged by:** Thái Quang Huy — 24127177
@@ -113,3 +113,12 @@
 - **Changed:** Claude Code rewrote the three Screens paragraphs, moved the limitations into one Notes paragraph, moved the counted/missing bullet under "Last priority" in Scope, marked step 5 of the main flow as last priority, rewrote the self-assessment with a total of 93 (the number given in the request), removed the "Before submission" section from README.md, and added placeholder questions to this log that were later resolved. It did not change the images, the Vietnamese labels, the screen names, or the project scope.
 - **Rejected:** Nothing was rejected during the session itself; any later rejection by the team was not reported.
 - **By hand:** No manual writing or checking was reported for this step; this does not establish that none occurred.
+
+## 2026-10-19 — README consistency
+- **Logged by:** Lê Nguyễn Quốc Học
+- **Tool:** OpenAI Codex.
+- **Asked for:** Align README.md with PROPOSAL.md.
+- **Kept:** The existing project scope and three-screen flow.
+- **Changed:** Marked counted/missing tracking as last priority, only if time allows; aligned button labels, checklist statuses, semester scope, and evidence-file rules with the proposal.
+- **Rejected:** None during this step.
+- **By hand:** Requested the README update; no manual edits were reported.
